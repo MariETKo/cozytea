@@ -1,0 +1,119 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  margin: 0 0;
+  text-align: center;
+  background-color: black;
+  opacity: 0.9;
+}
+
+/* -- Header with Nav Styling -- */
+#header {
+  background-color: black;
+  height: 69px;
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#header nav {
+  display: flex;
+  justify-content: flex-end;
+  flex-flow: wrap;
+}
+
+#header li {
+  text-align: right;
+  display: inline;
+}
+
+#header li a {
+  color: seashell;
+}
+
+/* -- Mission Styling -- */
+#mission {
+  background-image: url(../images/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.missionStatement {
+  background-color: black;
+}
+
+/* -- Tea of the Month Styling -- */
+#featured {
+  width: 1000px;
+  margin-bottom: 20px;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+#featured h2,
+#featured p {
+  width: 100%;
+  flex-grow: 1;
+}
+
+.monthlyMenu {
+  margin: 10px;
+
+}
+.monthlyMenu p {
+  font-weight: normal;
+  margin-top: 5px;
+}
+
+/* -- Locations Styling -- */
+#locations {
+  background-image: url(../images/img-locations-background.jpg);
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+#locations h2{
+  width: 100%;
+  flex-grow: 1;
+  margin: 0;
+}
+#locations h3 {
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 60px;
+  background-color: black;
+  opacity: 1;
+  height: 260px;
+  width: 260px;
+  padding: 20px;
+  margin: 15px 20px;
+}
+
+/* -- Contact Styling -- */
+#contact {
+  height: 180px;
+  margin-top: 20px;
+}
+
+/* -- Footer -- */
+#footer {
+  margin-left: 20px;
+}
+
+#footer h6{
+  text-align: left;
+}
