@@ -2,17 +2,23 @@ body {
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
-  margin: 0 0;
   text-align: center;
   background-color: black;
   opacity: 0.9;
+
+  margin: 0 auto;
 }
 
-/* -- Header with Nav Styling -- */
+
+/* -- Header with Nav Styling ------------- */
 #header {
   background-color: black;
   height: 69px;
   width: 100%;
+  margin: 0 auto;
+  padding-left: 10px;
+  border-bottom: 1px solid seashell;
+
   position: fixed;
   z-index: 2;
   display: flex;
@@ -21,6 +27,7 @@ body {
 }
 
 #header nav {
+  padding-right: 30px;
   display: flex;
   justify-content: flex-end;
   flex-flow: wrap;
@@ -29,17 +36,21 @@ body {
 #header li {
   text-align: right;
   display: inline;
+  padding: 0 10px;
 }
 
 #header li a {
   color: seashell;
 }
 
-/* -- Mission Styling -- */
+
+/* -- Mission Styling ------------- */
 #mission {
   background-image: url(../images/img-mission-background.jpg);
   height: 700px;
   width: 1200px;
+  margin: 0 auto;
+
   display: flex;
   flex-flow: column;
   justify-content: center;
@@ -49,21 +60,24 @@ body {
   background-color: black;
 }
 
-/* -- Tea of the Month Styling -- */
+/* -- Tea of the Month ------------- */
 #featured {
   width: 1000px;
-  margin-bottom: 20px;
-  align-items: center;
+  height: 800px;
+  margin: 0 auto;
+
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-content: center;
   align-content: center;
 }
 
 #featured h2,
 #featured p {
   width: 100%;
-  flex-grow: 1;
+  max-height:
+  margin: 10 auto;
 }
 
 .monthlyMenu {
@@ -72,13 +86,17 @@ body {
 }
 .monthlyMenu p {
   font-weight: normal;
-  margin-top: 5px;
+  width: 300px;
+  margin: 0 auto;
+  padding-top: 10px;
 }
 
-/* -- Locations Styling -- */
+/* -- Locations ------------- */
 #locations {
   background-image: url(../images/img-locations-background.jpg);
   height: 500px;
+  margin: 0 auto;
+
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -103,17 +121,18 @@ body {
   margin: 15px 20px;
 }
 
-/* -- Contact Styling -- */
+/* -- Contact Styling ------------- */
 #contact {
-  height: 180px;
-  margin-top: 20px;
+  height: 200px;
+  margin: 0 auto;
 }
 
-/* -- Footer -- */
+/* -- Footer ------------- */
 #footer {
-  margin-left: 20px;
+  margin: 0 auto;
 }
 
 #footer h6{
   text-align: left;
+  padding: 20px;
 }
